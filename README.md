@@ -17,9 +17,9 @@ Data augmentation with label consistency and deep learning based object detectio
 
 ## Dataset Description
 - Data type: RGB field images
-- Original images: 14
-- Augmented images: 42
-- Total dataset size: 56 images
+- Original images: 18
+- Augmented images: 54
+- Total dataset size: 72 images
 - Object classes:
   - Flower
   - Cocoa pod

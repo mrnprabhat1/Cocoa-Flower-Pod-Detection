@@ -19,9 +19,9 @@ This work is developed as a course project for the subject **Deep Learning** and
 The dataset consists of RGB images collected under real field conditions.
 
 **Dataset statistics**
-- Original images: 14
-- Augmented images: 42
-- Total images: 56
+- Original images: 18
+- Augmented images: 54
+- Total images: 72
 
 **Object classes**
 - Cocoa flower

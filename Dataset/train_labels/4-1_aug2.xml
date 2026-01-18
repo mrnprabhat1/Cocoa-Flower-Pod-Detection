@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>Data</folder>
+	<filename>4-1_aug2.jpg</filename>
+	<path>/content/drive/MyDrive/deeplearning/Assignment/augmented_data/images/4-1_aug2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3120</width>
+		<height>4160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object><name>flower</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1296</xmin><ymin>1956</ymin><xmax>1331</xmax><ymax>1990</ymax></bndbox></object><object><name>flower</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>957</xmin><ymin>1597</ymin><xmax>968</xmax><ymax>1614</ymax></bndbox></object><object><name>flower</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1553</xmin><ymin>1961</ymin><xmax>1572</xmax><ymax>1998</ymax></bndbox></object><object><name>flower</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1629</xmin><ymin>1978</ymin><xmax>1641</xmax><ymax>1999</ymax></bndbox></object><object><name>flower</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1774</xmin><ymin>1969</ymin><xmax>1794</xmax><ymax>2009</ymax></bndbox></object><object><name>flower</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>2116</xmin><ymin>1889</ymin><xmax>2146</xmax><ymax>1941</ymax></bndbox></object><object><name>flower</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>2154</xmin><ymin>1806</ymin><xmax>2173</xmax><ymax>1854</ymax></bndbox></object><object><name>flower</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1961</xmin><ymin>1877</ymin><xmax>1979</xmax><ymax>1892</ymax></bndbox></object><object><name>flower</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1985</xmin><ymin>1935</ymin><xmax>2004</xmax><ymax>1954</ymax></bndbox></object><object><name>flower</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1298</xmin><ymin>2065</ymin><xmax>1309</xmax><ymax>2077</ymax></bndbox></object><object><name>flower</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1349</xmin><ymin>2011</ymin><xmax>1362</xmax><ymax>2048</ymax></bndbox></object><object><name>flower</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1844</xmin><ymin>1982</ymin><xmax>1857</xmax><ymax>2031</ymax></bndbox></object></annotation>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>Data</folder>
+	<filename>3-3_aug3.jpg</filename>
+	<path>/content/drive/MyDrive/deeplearning/Assignment/augmented_data/images/3-3_aug3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3120</width>
+		<height>4160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object><name>cocoa_pod</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1495</xmin><ymin>2954</ymin><xmax>1525</xmax><ymax>3000</ymax></bndbox></object><object><name>cocoa_pod</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1467</xmin><ymin>2305</ymin><xmax>1547</xmax><ymax>2401</ymax></bndbox></object><object><name>cocoa_pod</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1355</xmin><ymin>2137</ymin><xmax>1384</xmax><ymax>2178</ymax></bndbox></object><object><name>cocoa_pod</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1401</xmin><ymin>1738</ymin><xmax>1490</xmax><ymax>1874</ymax></bndbox></object><object><name>flower</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1321</xmin><ymin>409</ymin><xmax>1333</xmax><ymax>448</ymax></bndbox></object></annotation>

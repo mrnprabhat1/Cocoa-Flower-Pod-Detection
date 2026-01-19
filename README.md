@@ -125,5 +125,5 @@ This project is conducted on a very small dataset, which limits generalization. 
 ## Acknowledgment
 Image data were collected through field work by collaborators. This project is developed strictly for academic and educational purposes.
 
-requirements.txt
-README.md
+## Citation
+If you use or reference this work, please cite it as a course project.

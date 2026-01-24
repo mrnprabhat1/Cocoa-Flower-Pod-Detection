@@ -77,6 +77,35 @@ Model performance is evaluated using an Intersection over Union based matching s
 - F1 score
 
 Mean Average Precision is not reported due to the very small dataset size. The selected metrics provide interpretable performance evaluation under strict localization constraints.
+## Performance Analysis
+
+To validate the real-world efficiency of the model, a comparative study was conducted between manual human counting and the AI model on a representative field image (Image 2.2).
+
+### 1. Detection Accuracy (Case Study)
+| Object Class | Manual Count (Ground Truth) | AI Model Detection | Accuracy vs Manual |
+| :--- | :--- | :--- | :--- |
+| **Cocoa Flowers** | 19 | 13 | 68.4% |
+| **Cocoa Pods** | 40 | 38 | **95.0%** |
+| **Total Objects** | **59** | **51** | **86.4%** |
+
+*Observation:* The model achieved high accuracy (95%) on Cocoa Pods, which are the primary yield indicators. Flower detection proved more challenging due to the small size of objects, yet the model still captured the majority of instances.
+
+### 2. Time Efficiency
+The most significant advantage of this pipeline is the drastic reduction in processing time.
+
+* **Manual Counting Time:** 2 minutes (120 seconds)
+* **AI Processing Time:** 0.11 seconds
+
+> **Result:** The AI model is approximately **1,090x faster** than manual inspection. This demonstrates that the system can process large datasets in seconds, whereas manual counting would require hours of labor.
+
+### 3. Visual Proof
+Here are the screenshots from our experiment:
+
+| AI Detection Result | Time Computation Log |
+| :---: | :---: |
+| ![AI Result](Assets/Ai_Result.jpeg) | ![Time Log](Assets/Time_Log.jpeg) |
+*Figure 1: Left: AI detecting flowers/pods. Right: Log showing 0.11s inference time.*
+
 
 ## Project Structure
 

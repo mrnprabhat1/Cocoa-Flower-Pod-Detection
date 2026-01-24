@@ -151,6 +151,13 @@ This project is conducted on a very small dataset, which limits generalization. 
 - Comparison with one stage detectors such as YOLO
 - Deployment for real time agricultural monitoring
 
+# Summary
+
+This repository presents a deep learning-based object detection system for identifying cocoa flowers and cocoa pods from field images. Using a small dataset annotated in Pascal VOC format, we implemented a robust data augmentation pipeline with geometric transformations, color and lighting variations, noise, blur, and random cropping while maintaining strict bounding box consistency. A Faster R-CNN model with a ResNet50 Feature Pyramid Network backbone pretrained on COCO was fine-tuned to detect three classes: background, cocoa flower, and cocoa pod. Training was conducted in PyTorch on a GPU-enabled environment with carefully selected hyperparameters, including 100 epochs, a learning rate of 0.005, and batch size of 2, which helped optimize detection performance despite limited data.
+
+Model evaluation combines quantitative and qualitative analyses. Precision, recall, and F1-score were computed using Intersection over Union-based matching with an IoU threshold of 0.55 and confidence threshold of 0.5, while visualizations of ground truth and predicted bounding boxes provide insights into detection accuracy and localization. Timed test summaries report inference speed and per-image object counts. The results demonstrate that data augmentation and two-stage detection models can effectively handle small-scale agricultural imaging tasks, providing a complete end-to-end pipeline for data preparation, model training, evaluation, and visualization. The dataset is organized under `augmented_data/output/` with `train_images`, `train_labels`, `valid_images`, `valid_labels`, and `test` folders, allowing anyone to quickly replicate training an
+
+
 ## Acknowledgment
 Image data were collected through field work by collaborators. This project is developed strictly for academic and educational purposes.
 

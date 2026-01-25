@@ -68,8 +68,8 @@ The model is trained using the PyTorch and Torchvision libraries.
 Model performance is evaluated using an Intersection over Union based matching strategy on the validation dataset.
 
 **Evaluation parameters**
-- Confidence threshold: 0.7
-- IoU threshold: 0.7
+- Confidence threshold: 0.55
+- IoU threshold: 0.55
 
 **Reported metrics**
 - Precision
@@ -84,17 +84,17 @@ To validate the real-world efficiency of the model, a comparative study was cond
 ### 1. Detection Accuracy (Case Study)
 | Object Class | Manual Count (Ground Truth) | AI Model Detection | Accuracy vs Manual |
 | :--- | :--- | :--- | :--- |
-| **Cocoa Flowers** | 19 | 13 | 68.4% |
-| **Cocoa Pods** | 40 | 38 | **95.0%** |
-| **Total Objects** | **59** | **51** | **86.4%** |
+| **Cocoa Flowers** | 55 | 42 | 76.36% |
+| **Cocoa Pods** | 6 | 3 | 50.0% |
+| **Total Objects** | **61** | **45** | **73.77%** |
 
-*Observation:* The model achieved high accuracy (95%) on Cocoa Pods, which are the primary yield indicators. Flower detection proved more challenging due to the small size of objects, yet the model still captured the majority of instances.
+*Observation:* The model achieved high accuracy (76.36%) on Cocoa flowers, which are the primary yield indicators. Flower detection proved more challenging due to the small size of objects, yet the model still captured the majority of instances.
 
 ### 2. Time Efficiency
 The most significant advantage of this pipeline is the drastic reduction in processing time.
 
 * **Manual Counting Time:** 2 minutes (120 seconds)
-* **AI Processing Time:** 0.11 seconds
+* **AI Processing Time:** 0.114 seconds
 
 > **Result:** The AI model is approximately **1,090x faster** than manual inspection. This demonstrates that the system can process large datasets in seconds, whereas manual counting would require hours of labor.
 

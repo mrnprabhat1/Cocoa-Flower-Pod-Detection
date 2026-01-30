@@ -103,7 +103,7 @@ Here are the screenshots from our experiment:
 
 | AI Detection Result | Time Computation Log |
 | :---: | :---: |
-| ![AI Result](Assets/Ai_Result.jpeg) | ![Time Log](Assets/Time_Log.jpeg) |
+| ![AI Result](Assets/Ai_Result.jpg) | ![Time Log](Assets/Time_Log.jpg) |
 *Figure 1: Left: AI detecting flowers/pods. Right: Log showing 0.11s inference time and Count of Flower and pods.*
 
 

@@ -79,7 +79,7 @@ Model performance is evaluated using an Intersection over Union based matching s
 Mean Average Precision is not reported due to the very small dataset size. The selected metrics provide interpretable performance evaluation under strict localization constraints.
 ## Performance Analysis
 
-To validate the real-world efficiency of the model, a comparative study was conducted between manual human counting and the AI model on a representative field image (Image 2.2).
+To validate the real-world efficiency of the model, a comparative study was conducted between manual human counting and the AI model on a representative field image (Image 2: 1-2).
 
 ### 1. Detection Accuracy (Case Study)
 | Object Class | Manual Count (Ground Truth) | AI Model Detection | Accuracy vs Manual |
